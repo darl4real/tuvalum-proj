@@ -39,10 +39,10 @@
     <f7-block strong>
       <f7-row>
         <f7-col width="50">
-          <f7-button fill raised panel-open="left">Left Panel</f7-button>
+          <f7-button fill raised panel-open="left">bicicleta</f7-button>
         </f7-col>
         <f7-col width="50">
-          <f7-button fill raised panel-open="right">Right Panel</f7-button>
+          <f7-button fill raised panel-open="right">casco</f7-button>
         </f7-col>
       </f7-row>
     </f7-block>
