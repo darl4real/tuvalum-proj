@@ -31,6 +31,7 @@
   },
   "homepage": "http://framework7.io/vue/",
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.11",
     "framework7": "^3.0.0",
     "framework7-icons": "^0.9.1",
     "framework7-vue": "^3.0.0",

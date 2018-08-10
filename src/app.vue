@@ -35,7 +35,7 @@ Este mes de julio consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte c
     </f7-popup>
 
 <!-- cascos -->
-  <f7-cascos id="cascos">
+  <div id="cascos">
       <f7-view>
         <f7-page>
           <f7-navbar title="Cascos">
@@ -48,7 +48,7 @@ Este mes de julio consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte c
 Este mes de julio consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte con ella!</f7-block>
         </f7-page>
       </f7-view>
-    </f7-cascos>
+    </div>
 
     <!-- Login Screen -->
     <f7-login-screen id="login-screen">

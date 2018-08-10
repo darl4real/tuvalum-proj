@@ -15,6 +15,7 @@
     </f7-toolbar>
     <f7-block strong>
       <p><img src="../assets/logo_tuvalum_cabecera.png" /></p>
+
       <p>Bienvenido a la web más segura para comprar y vender bicicletas de segunda mano.</p>
 
     </f7-block>
@@ -24,7 +25,7 @@
       <f7-list-item link="/bicicleta/" title="bicicleta"></f7-list-item>
       <f7-list-item link="/cascos/" title="cascos"></f7-list-item>
     </f7-list>
-    <f7-block-title>Modals</f7-block-title>
+    <f7-block-title></f7-block-title>
     <f7-block strong>
       <f7-row>
         <f7-col width="50">
@@ -35,7 +36,7 @@
         </f7-col>
       </f7-row>
     </f7-block>
-    <f7-block-title>Panels</f7-block-title>
+    <f7-block-title></f7-block-title>
     <f7-block strong>
       <f7-row>
         <f7-col width="50">
