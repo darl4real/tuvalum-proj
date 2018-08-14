@@ -1,10 +1,10 @@
 <template>
   <f7-page>
-    <f7-navbar title="Right Panel"></f7-navbar>
+    <f7-navbar title="right Panel"></f7-navbar>
     <f7-block strong>
       <p></p>
     </f7-block>
-    <f7-block-title>Panel Derecha</f7-block-title>
+    <f7-block-title>Panel Derecho</f7-block-title>
     <f7-list>
       <f7-list-item link="/about/" title="About"></f7-list-item>
       <f7-list-item link="/bicicleta/" title="bicicleta"></f7-list-item>

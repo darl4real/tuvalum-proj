@@ -29,7 +29,7 @@
           </f7-navbar>
           <f7-block>¿Quieres la bicicleta de gravel de Valentí Sanjuan?
 
-Este mes de julio consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte con ella!</f7-block>
+Este mes de Augusto consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte con ella!</f7-block>
         </f7-page>
       </f7-view>
     </f7-popup>
@@ -45,7 +45,7 @@ Este mes de julio consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte c
           </f7-navbar>
           <f7-block>¿Quieres la bicicleta de gravel de Valentí Sanjuan?
 
-Este mes de julio consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte con ella!</f7-block>
+Este mes de Augusto consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte con ella!</f7-block>
         </f7-page>
       </f7-view>
     </div>
@@ -81,6 +81,7 @@ Este mes de julio consigue en Tuvalum la Cannondale Slate del jabalí. ¡Hazte c
 <script>
 // Import Routes
 import routes from './routes.js'
+import eventHub from './eventHub.js'
 
 export default {
   data() {
@@ -93,7 +94,15 @@ export default {
         // App routes
         routes: routes,
       },
+      model: {
+        bike:''
+      }
     }
+  },
+  created() {
+    eventHub.$on('submitB1', data => {
+      this.bike = data;
+    })
   }
 }
 </script>

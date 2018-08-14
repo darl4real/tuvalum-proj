@@ -1,7 +1,7 @@
 <template>
   <f7-page>
     <f7-navbar title="Bicicletas" back-link="Back"></f7-navbar>
-    <f7-block-title>Eligir Producto</f7-block-title>
+    <f7-block-title>Eligir Bicicleta</f7-block-title>
 
     <f7-block-title>Tipos de Bicicleta</f7-block-title>
     <b-form-select v-model="selected" class="mb-3">
@@ -17,19 +17,27 @@
   </div>
         <f7-label>Agregue una marca si no puede encontrar su marca</f7-label>
         <f7-input type="textarea" placeholder="marca y indicar modelo" resizable></f7-input>
-      </f7-list-item>
+
 
 
     <f7-block-title></f7-block-title>
-      <f7-button class="col" big fill raised color="red">submit</f7-button>
+      <f7-button class="col" big fill raised color="red" @click="submit">submit</f7-button>
   </f7-page>
 </template>
 
 <script>
+import eventHub from '../eventHub.js'
 export default {
   data () {
     return {
       selected: null
+    }
+  },
+
+  methods: {
+    submit() {
+      console.log( this.selected )
+      eventHub.$emit('submitB1', this.selected);
     }
   }
 }
